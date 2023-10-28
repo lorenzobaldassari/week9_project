@@ -12162,7 +12162,6 @@ body {
 #home {
   background: linear-gradient(black 0%, #1f1e1e 7%, #1f1e1e 93%, black) !important;
   min-height: 100vh;
-  overflow-x: hidden !important;
 }
 
 @media screen and (min-width: 992px) {
@@ -12231,28 +12230,13 @@ body {
     text-align: start !important;
     font-size: 2rem !important;
   }
-  .CarImg {
-    height: 500px !important;
-  }
   .rowWidth {
+    width: 100% !important;
     overflow-x: scroll;
     flex-wrap: nowrap;
   }
-  #row {
-    width: 160% !important;
-  }
   .xm-0 {
     margin: 0px 30px !important;
-  }
-}
-@media screen and (min-width: 992px) {
-  .CarImg {
-    height: 450px !important;
-  }
-}
-@media screen and (min-width: 1500px) {
-  .CarImg {
-    height: 600px !important;
   }
 }
 #row::-webkit-scrollbar {

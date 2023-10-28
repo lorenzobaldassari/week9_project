@@ -74,11 +74,11 @@ import Alert from 'react-bootstrap/Alert';
                     this.state.films.slice().map(film=>{
                     return(
                      <Col key={film.imdbID}   
-                      className="colWidth col-12 col-sm-6 col-md-3 col-lg-2 CarImg">
+                      className="colWidth col-12 col-sm-6 col-md-3 col-lg-2 CarImg d-flex align-items-center">
                         <img 
                             src={film.Poster}
                             width="100%"
-                            height="100%"
+                            // height="100%"
                             alt=""
                         />
                     </Col>
